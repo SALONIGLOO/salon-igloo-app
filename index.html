@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salón Igloo - Confirmación de Reserva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Salón Igloo</h1>
+      <form id="reservaForm">
+        <label>Nombre del Cliente:<input type="text" name="nombre" required /></label>
+        <label>Fecha del Evento:<input type="date" name="fecha" required /></label>
+        <label>Tipo de Evento:<input type="text" name="evento" required /></label>
+        <label>Horario:<input type="text" name="horario" required /></label>
+        <label>Monto de Seña:<input type="number" name="sena" required /></label>
+        <label>Saldo:<input type="number" name="saldo" required /></label>
+        <label>Servicios Incluidos:<textarea name="servicios" rows="2"></textarea></label>
+        <label>Observaciones:<textarea name="observaciones" rows="2"></textarea></label>
+        <button type="submit">Generar Confirmación</button>
